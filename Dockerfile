@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM omneedia/ubuntu
 
 ENV PATH $PATH:/root/.composer/vendor/bin
 ENV DOCUMENT_ROOT /var/www/html
